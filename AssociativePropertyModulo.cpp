@@ -1,6 +1,8 @@
 // Given an array of integers A. calculate the sum of A[i] %A[j] for all possible i,j pair. 
 // return sum%(10^9+7) as an output solve this problem on o(n)
 
+// (x + y) % z = (x % z) + (y % z)
+
 #include <iostream>
 using namespace std;
 int main() {
